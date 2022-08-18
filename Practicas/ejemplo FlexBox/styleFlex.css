@@ -1,0 +1,99 @@
+h1 {
+    color: white;
+}
+
+body{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(185, 228, 214);
+    
+}
+.menu{
+    display: flex;
+    width: 300px;
+    height: 50%;
+    flex-direction: row;
+   
+    
+}
+
+a.top{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:x-large;
+    color: white;
+}
+
+.header{
+    background-color: rgb(110, 194, 110);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    overflow: auto;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+
+
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+   
+}
+.item{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    
+
+}
+#content{
+    display: flex;
+    width: auto;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+h3{
+    color: black;
+}
+img{
+    border-radius: 20px;
+}
