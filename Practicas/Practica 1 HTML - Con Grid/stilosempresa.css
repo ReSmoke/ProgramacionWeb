@@ -1,0 +1,135 @@
+
+/*general*/
+body{
+    display: grid;
+    padding: 0%;
+    font-family:'Trebuchet MS';
+    color: #fcdbe6;
+    background-color: black;
+}
+
+header{
+    display: grid;
+    padding-left: 20PX;
+    grid-template-columns: 9fr 1fr;
+    background-color: rgb(15, 14, 15);
+
+
+}
+#uno{
+    display: grid;
+    
+}
+#coraz{
+    width: 100px;
+    height: 100px;
+}
+#center{
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    grid-template-rows: max-content;
+    border: whitesmoke solid;
+
+
+    
+}
+#menu{
+    display: grid;
+    height: 400px;
+    width: 150px;
+
+    background-color:#1a1718;
+    
+   
+    justify-content: center;
+
+}
+ul li:hover{
+    background-color: gray;
+    
+}
+
+li{
+    size: 200px, 100px;
+    list-style: none;
+    padding: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#lol{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 40px;
+    border: black;
+
+}
+#info{
+    display: grid;
+    padding: 20px;
+    border: #f15c8e solid;
+
+}
+#base{
+    height: 100px;
+    display: grid;
+    
+    background: #1a1718;
+    
+}
+footer{
+       padding: 20px;
+       background-color: #1a1718;
+       position: relative; left: 1200px;
+}
+img{
+    padding: 20px;
+    justify-content: center;
+}
+
+
+/*     */
+.redes{
+    display:grid;
+    height: 100px;
+    width: 600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+#lole{
+    display: grid;
+    justify-content: center;
+    padding: 40px;
+
+    
+   
+}
+#centero{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: 500px;
+    border: #f15c8e solid;
+    
+    
+    
+
+    
+}
+
+#productos{
+    display: grid;
+   grid-template-rows: 1fr 4fr;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.prod{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
