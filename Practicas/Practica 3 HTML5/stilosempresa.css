@@ -1,0 +1,168 @@
+
+/*general*/
+body{
+    display: grid;
+   
+    font-family:'Trebuchet MS';
+    color: #fcdbe6;
+    background-color: black;
+}
+
+header{
+    display: grid;
+    padding-left: 20PX;
+    grid-template-columns: 9fr 1fr;
+    background-color: #1a1718;
+
+
+}
+
+#coraz{
+    width: 100px;
+    height: 100px;
+}
+#center{
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    grid-template-rows: max-content;
+  
+
+
+    
+}
+#menu{
+    display: grid;
+    height: 400px;
+    width: 150px;
+    background-color:#1a1718;
+    justify-content: center;
+
+}
+nav li:hover{
+    background-color: gray;
+    
+}
+
+li{
+    size: 200px, 100px;
+    list-style: none;
+    padding: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#lol{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 40px;
+    border: black;
+
+}
+#info{
+    display: grid;
+    padding: 40px;
+    border: #f15c8e solid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+    place-content: center;
+    
+}
+#base{
+    height: 100px;
+    display: grid;
+    
+    background: #1a1718;
+    
+}
+footer{
+       padding: 20px;
+       background-color: #1a1718;
+       position: relative;
+}
+img{
+    padding: 20px;
+    justify-content: center;
+}
+
+
+/*     */
+
+#lole{
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    position: relative; left: 5%;
+}
+.redes{
+    display:grid;
+    height: 100px;
+    width: 600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    position: relative; right: 20%; bottom: 30%;
+}
+#centero{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    overflow: hidden;
+    
+    
+    
+    
+    
+
+    
+}
+
+#productos{
+    display: grid;
+    grid-template-rows: 200px 200px;
+    
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.prod{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    
+}
+.product{
+    position: relative; left: 35%;
+    padding: 20px;
+}
+
+
+#tabla{
+    display: flex;
+    
+    position: relative; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+td{
+    border: red solid;
+    padding: 4px;
+}
+table{
+    border-collapse: collapse;
+}
+.T1{
+    background-color: black;
+    color: white;
+}
+.T2{
+    background-color: white;
+    color: black;
+}
