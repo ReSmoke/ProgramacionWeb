@@ -1,0 +1,219 @@
+@font-face{
+    font-family: Dosis;
+    src: url(Voga-Medium.otf) format("opentype");
+}
+@font-face{
+    font-family: Dosis-Bold;
+    src: url(Lora-Bold.ttf) format("opentype");
+}
+@font-face{
+    font-family: Dosis-Regular;
+    src: url(Lora-Regular.ttf) format("opentype");
+}
+/*Fuentes y body*/
+body{
+    background-color: white;
+    margin: 0%;
+}
+h1{
+    font-family: "Dosis";
+}
+h2{
+    font-family: "Dosis-Bold";
+    font-size: x-large;
+}
+p{
+    font-family: "Dosis-Regular";
+    font-size: large;
+}
+.headform{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    margin: 0%;
+    background:rgb(157, 150, 150);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.item{
+    font-family: "Dosis-Bold";
+    font-size: x-large;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 30px;
+    
+}
+.n{
+    text-decoration:none;
+    color: black;
+}
+
+/*Primera seccion*/
+header{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-areas:
+    "a a b b"
+    "a a b b";
+    grid-auto-rows: 300px;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    background: whitesmoke; 
+    margin: 0%;
+}
+img{
+height: 100%;
+width: auto;
+}
+#seccionimagen{
+grid-area: a;
+align-self: center;
+justify-self: center;
+}
+#seccionintro{
+grid-area: b;
+align-self: center;
+justify-self: center;
+}
+
+/*Segunda seccion -  navegacion*/
+.navegacion{
+    display: flex;
+ width: 100%;
+ height: 10%;
+ background: rgb(157, 150, 150);
+ margin: 0%;
+ align-items: center;
+    justify-content: center;
+}
+.navi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+a:hover{
+    color: gray;
+    
+}
+
+/*tercera seccion*/
+#acercade{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-auto-rows: 300px;
+    grid-template-areas:
+    "c c d d"
+    "c c d d"
+    "e e e e";
+
+    padding: 5%;
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    align-self: center;
+    justify-self: center;
+}
+#seccionad{
+    grid-area: c;
+    align-self: center;
+    justify-self: center;
+   }
+
+.titulos{
+    list-style: none;
+    font-family: "Dosis-Regular";
+    font-size: large;
+}
+#imagenad{
+    grid-area: d;
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+    height: auto;
+}
+
+
+/*cuarta seccion*/
+
+#formacion{
+    padding: 5%;
+    height: 50%;
+    width: auto;
+}
+.formacion{
+    list-style: none;
+    font-family: "Dosis-Regular";
+    font-size: x-large;
+}
+
+
+/*quinta seccion*/
+#experiencia{
+    padding: 5%;
+}
+
+/*Sexta seccion*/
+#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*footer*/
+footer{
+    height: 30%;
+    display: flex;
+    background:rgb(157, 150, 150);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.red{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+#contenido{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*Boton flotante*/
+.btn-flotante {
+	font-size: 16px; /* Cambiar el tamaño de la tipografia */
+	text-transform: uppercase; /* Texto en mayusculas */
+	font-weight: bold; /* Fuente en negrita o bold */
+	color: #ffffff; /* Color del texto */
+	border-radius: 5px; /* Borde del boton */
+	letter-spacing: 2px; /* Espacio entre letras */
+	background-color: rgb(157, 150, 150);/* Color de fondo */
+	padding: 18px 30px; /* Relleno del boton */
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+    text-decoration: none;
+    font-family: "Dosis";
+}
+
+.btn-flotante:hover {
+	background-color: #2c2fa5; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+@media only screen and (max-width: 600px) {
+    .btn-flotante {
+       font-size: 14px;
+       padding: 12px 20px;
+       bottom: 20px;
+       right: 20px;
+   }
+} 
