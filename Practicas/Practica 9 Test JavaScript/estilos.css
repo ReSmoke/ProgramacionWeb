@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    width: 100%;
+    font-style: 'roboto';
+    background-color: rgb(166, 144, 87);
+    padding: 30px;
+    align-items: center;
+}
+body{
+    color: black;
+    display:flex;
+    flex-direction: column;
+    margin: 0%;
+    font-style: "roboto";
+}
+#preguntas{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+.pregunta{
+    height: 200px;
+    width: 100%;
+    background-color: beige;
+    padding: 40px;
+    margin: 30px;
+}
+#botones{
+    align-self: auto;
+}
